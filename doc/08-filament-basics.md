@@ -1,4 +1,4 @@
-# 🔙 [Back to Documentation](README.md) | Filament 4.x Basics
+# [🔙](README.md) Filament 4.x Basics
 
 This guide covers the fundamentals of building admin interfaces with Filament 4.x, emphasizing development patterns that work well with Laravel Boost and command-line workflows.
 

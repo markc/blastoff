@@ -1,4 +1,4 @@
-# 🔙 [Back to Documentation](README.md) | Project Setup Guide
+# [🔙](README.md) Project Setup Guide
 
 This guide demonstrates setting up a Laravel + Filament 4.x project optimized for development with Laravel Boost and Claude Code.
 
