@@ -1,4 +1,4 @@
-# Laravel Boost + Claude Code + Filament 4.x Documentation
+# 🔙 [Back to Project](../README.md) | Laravel Boost + Claude Code + Filament 4.x Documentation
 
 This documentation demonstrates how to leverage Laravel Boost with Claude Code for efficient Filament 4.x development using only command-line tools and nano for text editing.
 

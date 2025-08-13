@@ -1,4 +1,4 @@
-# Tinker Integration with Laravel Boost
+# 🔙 [Back to Documentation](README.md) | Tinker Integration with Laravel Boost
 
 Laravel Boost's Tinker integration allows you to execute PHP code directly in your Laravel application context through Claude Code. This provides immediate feedback for testing models, relationships, services, and application logic.
 

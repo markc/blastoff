@@ -1,4 +1,4 @@
-# Database Operations with Laravel Boost
+# 🔙 [Back to Documentation](README.md) | Database Operations with Laravel Boost
 
 Laravel Boost provides powerful database tools that allow you to query, inspect, and manage your database directly through Claude Code without leaving the command line.
 

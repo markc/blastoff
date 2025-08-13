@@ -1,4 +1,4 @@
-# Command-Line Development Workflow
+# 🔙 [Back to Documentation](README.md) | Command-Line Development Workflow
 
 This guide demonstrates efficient Laravel + Filament development using only command-line tools, nano editor, and Laravel Boost integration with Claude Code.
 

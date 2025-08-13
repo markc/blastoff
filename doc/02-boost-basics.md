@@ -1,4 +1,4 @@
-# Laravel Boost Basics
+# 🔙 [Back to Documentation](README.md) | Laravel Boost Basics
 
 Laravel Boost is an MCP (Model Context Protocol) server that provides powerful development tools specifically designed for Laravel applications. This guide covers the essential Boost features and how to use them effectively with Claude Code.
 
