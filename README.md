@@ -1,5 +1,7 @@
 # :rocket: Blast Off!
 
+**The docs are 👉 [here](doc/README.md)**
+
 A demonstration project showcasing how Laravel Boost accelerates Filament 4 development with Claude Code at the helm.
 
 ## Project Overview
