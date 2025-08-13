@@ -1,62 +1,88 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# :rocket: Blast Off!
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A demonstration project showcasing how Laravel Boost accelerates Filament 4 development with Claude Code at the helm.
 
-## About Laravel
+## Project Overview
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This project demonstrates the enhanced development experience possible when combining:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- **Laravel 12.x** - Latest Laravel framework with streamlined structure
+- **Filament 4.0** - Modern admin panel framework
+- **Laravel Boost** - MCP server providing powerful development tools
+- **Tailwind CSS 4.0** - Latest utility-first CSS framework
+- **Claude Code** - AI-powered development without traditional IDEs
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The project is specifically designed to demonstrate development workflows using only command-line tools and Claude Code's intelligent assistance.
 
-## Learning Laravel
+## Technology Stack
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **Backend**: Laravel 12.24.0 (PHP 8.4+)
+- **Admin Interface**: Filament 4.0.0
+- **Frontend**: Livewire 3.6.4 + Tailwind CSS 4.0.0
+- **Database**: SQLite (for simplicity)
+- **Development Tools**: Laravel Boost 1.0+, Laravel Pint 1.24.0
+- **Testing**: PHPUnit 11.5.3+
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Quick Start
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+```bash
+# Copy environment file
+cp .env.example .env
 
-## Laravel Sponsors
+# Generate application key
+php artisan key:generate
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+# Create database
+touch database/database.sqlite
 
-### Premium Partners
+# Run migrations
+php artisan migrate
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+# Start development environment
+composer run dev
+```
 
-## Contributing
+## Laravel Boost Integration
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Laravel Boost enhances development by providing:
+- **Direct database querying** without leaving the command line
+- **Laravel Tinker integration** for immediate PHP execution
+- **Real-time log monitoring** for debugging
+- **Documentation search** for version-specific guidance
+- **Application introspection** for understanding structure
 
-## Code of Conduct
+## Development Workflow
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Core Commands
+```bash
+# Start full development environment
+composer run dev
 
-## Security Vulnerabilities
+# Format code (required before commits)
+vendor/bin/pint
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+# Run tests
+php artisan test
+
+# Access admin panel
+# http://localhost:8000/admin
+```
+
+### With Laravel Boost + Claude Code
+1. **Start with Boost application info** to understand the current state
+2. **Use Boost documentation search** before implementing features
+3. **Test code with Boost Tinker** before writing to files
+4. **Monitor logs with Boost** during development
+5. **Query database directly with Boost** for data verification
+
+## Features
+
+- **Streamlined Laravel 12 structure** - No legacy middleware or kernel files
+- **Filament 4.0 admin panel** - Modern, responsive interface
+- **MCP server integration** - Seamless development tools
+- **Command-line first** - Pure terminal-based development
+- **Version-aware documentation** - Always current for installed packages
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# blastoff
+MIT License - See LICENSE file for details
