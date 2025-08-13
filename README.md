@@ -21,7 +21,7 @@ The project is specifically designed to demonstrate development workflows using 
 - **Frontend**: Livewire 3.6.4 + Tailwind CSS 4.0.0
 - **Database**: SQLite (for simplicity)
 - **Development Tools**: Laravel Boost 1.0+, Laravel Pint 1.24.0
-- **Testing**: PHPUnit 11.5.3+
+- **Testing**: Pest 4.0.0-beta.2
 
 ## Quick Start
 
